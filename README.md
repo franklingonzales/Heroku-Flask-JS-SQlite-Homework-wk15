@@ -67,9 +67,28 @@ cd hmwkDeploy
 mkdir hmwkPlotly
 ```
 
-If we execute the command ** ls -l **, the hmwkDeploy folder should look like this:
+If we execute the command **ls -l**, the *hmwkDeploy* folder should look like this:
 
 ![](images/004_hmwkPlotlyFolder.png)
+
+* For this project, we will need a series of python libraries: *sqlite*, *sqlalchemy*, *Flask-sqlalchemy*, *numpy*, *pandas*. For this, we will execute the following commands within our environment:
+
+```python
+pip install sqlite
+pip install sqlalchemy
+pip install flask-sqlalchemy
+pip install numpy
+pip install pandas
+```
+
+* We copy the following project files, saved in this GitHub repository, to the *hmwkPlotly* folder:
+
+* We create the *requirements.txt* file where we will deposit all the dependencies (libraries) installed in our environment, with their respective versions. For this, we use the command **pip freeze** as follows:
+
+```python
+pip freeze > requirements.txt
+```
+
 
 ## Final specifications.
 
