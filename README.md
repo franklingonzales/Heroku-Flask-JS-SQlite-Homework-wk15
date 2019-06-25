@@ -38,13 +38,38 @@ virtualenv hmwkDeploy
 ```
 ![](images/002_hmwkDeploy_Directory.png)
 
-* Basically, when creating our development environment, we created a folder with the same name, which has 3 folders with what is necessary to build a small world of isolated development, within our operating system. Activate our new environment, from our *deploy* folder, with the following command:
+* Basically, when creating our development environment, we created a folder with the same name, which has 3 folders with what is necessary to build a small world of isolated development, within our operating system. Activate our new environment, from our *deploy* folder, with the following command that begin with a dot:
 
 ```bash
 . hmwkDeploy/bin/activate
 ```
 
 ![](images/003_EnviromentActivate.png)
+
+* As a next step, we installed *flask* server and *gunicorn*. The application [*gunicorn*](https://gunicorn.org/) will help us to deploy and execute the command of the execution of our app in heroku.
+
+```bash
+pip install flask
+pip install gunicorn
+```
+
+
+#### 2. Create the necessary files to perform deploy
+* We enter our folder, created by the hmwkDeploy environment:
+
+```bash
+cd hmwkDeploy
+```
+
+* Inside the *hmwkDeploy* folder, we will see a new folder with the name we want to give to our project. For my case, I chose *hmwkPlotly*
+
+```bash
+mkdir hmwkPlotly
+```
+
+If we execute the command ** ls -l **, the hmwkDeploy folder should look like this:
+
+![](images/004_hmwkPlotlyFolder.png)
 
 ## Final specifications.
 
