@@ -71,7 +71,7 @@ If we execute the command **ls -l**, the *hmwkDeploy* folder should look like th
 
 ![](images/004_hmwkPlotlyFolder.png)
 
-* For this project, we will need a series of python libraries: *sqlite*, *sqlalchemy*, *Flask-sqlalchemy*, *numpy*, *pandas*. For this, we will execute the following commands within our environment:
+* For this project, we will need a set of python libraries: *sqlite*, *sqlalchemy*, *Flask-sqlalchemy*, *numpy*, *pandas*. For this, we will execute the following commands within our environment:
 
 ```python
 pip install sqlite
@@ -80,6 +80,10 @@ pip install flask-sqlalchemy
 pip install numpy
 pip install pandas
 ```
+
+* This is my GitHub repository for this project.
+
+![](images/004_hmwkPlotlyFolder.png)
 
 * We copy the following project files, saved in this GitHub repository, to the *hmwkPlotly* folder:
 
