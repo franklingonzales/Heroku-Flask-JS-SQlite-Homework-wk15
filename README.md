@@ -1,3 +1,7 @@
+# Deploying a little Web-App in Heroku, with Flask - SQlite - JS
+## Introduction
+
+
 Whole folder is connected with my GitHub
 
 Path in my local mac:
