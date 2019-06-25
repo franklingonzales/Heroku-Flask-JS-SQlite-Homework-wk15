@@ -1,4 +1,5 @@
 # Deploying a little Web-App in Heroku, with Flask - SQlite - JS
+> by Franklin Gonzales
 ## Introduction
 
 Next, I will deploy a Web application, created in Javascript, with queries to the SQLite database from python. In the part of the Back-end, we will have a Flask server. The application, in its entirety, will be transferred to Heroku to deploy on its servers. 
