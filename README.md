@@ -1,5 +1,5 @@
 # Deploying a little Web-App in Heroku, with Flask - SQlite - JS
-> by Franklin Gonzales
+> by **Franklin Gonzales**, Georgia US, Jun 2019.
 ## Specifications
 #### Computer Model: **MacBook, pro or air**
 #### Operating system: **macOS, Mojave 10.14.5**
