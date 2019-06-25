@@ -100,13 +100,12 @@ pip install pandas
 
 ![](images/008_screenApp.png)
 
-
-* We create the *requirements.txt* file where we will deposit all the dependencies (libraries) installed in our environment, with their respective versions. For this, we use the command **pip freeze** as follows:
+* As we already know that the application works correctly in our environment, we can generate the requirements.txt file. First, we stop the Flask server with the command **Control + C**, and execute the following command:
 
 ```python
 pip freeze > requirements.txt
 ```
-
+* 
 
 ## Final specifications.
 
