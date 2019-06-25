@@ -6,7 +6,11 @@ Let us begin!
 
 ## Road Map
 
+We have the following 3 big steps:
 
+* Create a virtual environment.
+* Create the necessary files to perform the deploy.
+* Perform the deploy in Heroku.
 
 ## Instructions - step by step
 
