@@ -1,5 +1,8 @@
 # Deploying a little Web-App in Heroku, with Flask - SQlite - JS
-> by Franklin Gonzales
+> by **Franklin Gonzales**, Georgia US, Jun 2019.
+## Specifications
+#### Computer Model: **MacBook, pro or air**
+#### Operating system: **macOS, Mojave 10.14.5**
 ## Introduction
 
 Next, I will deploy a Web application, created in Javascript, with queries to the SQLite database from python. In the part of the Back-end, we will have a Flask server. The application, in its entirety, will be transferred to Heroku to deploy on its servers. 
@@ -20,6 +23,12 @@ We have the following 3 big steps:
 ```bash
 mkdir hmwkDeploy
 ls -l
+```
+![](images/001_DirectoryCreated.png)
+
+* We must create our own virtual work environment. For this, we will use the *virtualenv* application executed from our new directory. If we do not have the *virtualenv* application, we can install it with:
+```bash
+pip install virtualenv
 ```
 
 ## Final specifications.
