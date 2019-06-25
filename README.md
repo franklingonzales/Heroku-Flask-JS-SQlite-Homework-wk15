@@ -19,17 +19,25 @@ We have the following 3 big steps:
 ## Instructions - step by step
 
 #### 1. Create a virtual environment
-* We created a new directory. For my case, I created the hmwkDeploy directory.
+* We created a new directory. For my case, I created the *deploy* directory.
 ```bash
-mkdir hmwkDeploy
+mkdir deploy
 ls -l
 ```
-![](images/001_DirectoryCreated.png)
+![](images/001_deployDirectoryCreated.png)
 
 * We must create our own virtual work environment. For this, we will use the *virtualenv* application executed from our new directory. If we do not have the *virtualenv* application, we can install it with:
 ```bash
 pip install virtualenv
 ```
+
+* Now, we enter our new directory, and execute the command *virtualenv*. When executing the command *virtualenv* we must pass as an argument the name of our virtual environment. For my case, I have chosen the name: *hmwkDeploy*, but we can choose the name we want.
+```bash
+cd deploy
+virtualenv hmwkDeploy
+```
+
+* Activate our new environment, from our *deploy* folder, with the following command:
 
 ## Final specifications.
 
