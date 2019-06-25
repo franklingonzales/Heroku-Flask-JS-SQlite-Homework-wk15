@@ -38,13 +38,57 @@ virtualenv hmwkDeploy
 ```
 ![](images/002_hmwkDeploy_Directory.png)
 
-* Basically, when creating our development environment, we created a folder with the same name, which has 3 folders with what is necessary to build a small world of isolated development, within our operating system. Activate our new environment, from our *deploy* folder, with the following command:
+* Basically, when creating our development environment, we created a folder with the same name, which has 3 folders with what is necessary to build a small world of isolated development, within our operating system. Activate our new environment, from our *deploy* folder, with the following command that begin with a dot:
 
 ```bash
 . hmwkDeploy/bin/activate
 ```
 
 ![](images/003_EnviromentActivate.png)
+
+* As a next step, we installed *flask* server and *gunicorn*. The application [*gunicorn*](https://gunicorn.org/) will help us to deploy and execute the command of the execution of our app in heroku.
+
+```bash
+pip install flask
+pip install gunicorn
+```
+
+
+#### 2. Create the necessary files to perform deploy
+* We enter our folder, created by the hmwkDeploy environment:
+
+```bash
+cd hmwkDeploy
+```
+
+* Inside the *hmwkDeploy* folder, we will see a new folder with the name we want to give to our project. For my case, I chose *hmwkPlotly*
+
+```bash
+mkdir hmwkPlotly
+```
+
+If we execute the command **ls -l**, the *hmwkDeploy* folder should look like this:
+
+![](images/004_hmwkPlotlyFolder.png)
+
+* For this project, we will need a series of python libraries: *sqlite*, *sqlalchemy*, *Flask-sqlalchemy*, *numpy*, *pandas*. For this, we will execute the following commands within our environment:
+
+```python
+pip install sqlite
+pip install sqlalchemy
+pip install flask-sqlalchemy
+pip install numpy
+pip install pandas
+```
+
+* We copy the following project files, saved in this GitHub repository, to the *hmwkPlotly* folder:
+
+* We create the *requirements.txt* file where we will deposit all the dependencies (libraries) installed in our environment, with their respective versions. For this, we use the command **pip freeze** as follows:
+
+```python
+pip freeze > requirements.txt
+```
+
 
 ## Final specifications.
 
