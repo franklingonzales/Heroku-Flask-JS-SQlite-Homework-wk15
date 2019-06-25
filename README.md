@@ -23,7 +23,7 @@ ls -l
 ```
 ![](images/001_DirectoryCreated.png)
 
-* We must create our own virtual work environment. For this, we will use the * virtualenv * application executed from our new directory. If we do not have the * virtualenv * application, we can install it with:
+* We must create our own virtual work environment. For this, we will use the *virtualenv* application executed from our new directory. If we do not have the *virtualenv* application, we can install it with:
 ```bash
 pip install virtualenv
 ```
