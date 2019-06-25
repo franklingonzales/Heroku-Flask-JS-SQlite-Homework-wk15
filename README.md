@@ -24,7 +24,7 @@ We have the following 3 big steps:
 mkdir hmwkDeploy
 ls -l
 ```
-![](images/001_deployDirectory.png)
+![](images/001_deployDirectoryCreated.png)
 
 * We must create our own virtual work environment. For this, we will use the *virtualenv* application executed from our new directory. If we do not have the *virtualenv* application, we can install it with:
 ```bash
