@@ -40,6 +40,12 @@ virtualenv hmwkDeploy
 
 * Basically, when creating our development environment, we created a folder with the same name, which has 3 folders with what is necessary to build a small world of isolated development, within our operating system. Activate our new environment, from our *deploy* folder, with the following command:
 
+```bash
+. hmwkDeploy/bin/activate
+```
+
+![](images/003_EnviromentActivate.png)
+
 ## Final specifications.
 
 Whole folder is connected with my GitHub
