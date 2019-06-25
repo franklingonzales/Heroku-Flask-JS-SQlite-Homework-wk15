@@ -94,11 +94,11 @@ pip install pandas
 
 * We execute the python command for the flask server saved in *app.py*
 
-![](images/006_python.png)
+![](images/007_python.png)
 
 * Now, we open any browser like safari, chrome, or microsoft edge, and we call the address: **localhost:5000**
 
-![](images/007_screenApp.png)
+![](images/008_screenApp.png)
 
 
 * We create the *requirements.txt* file where we will deposit all the dependencies (libraries) installed in our environment, with their respective versions. For this, we use the command **pip freeze** as follows:
