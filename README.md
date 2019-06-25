@@ -21,7 +21,7 @@ We have the following 3 big steps:
 #### 1. Create a virtual environment
 * We created a new directory. For my case, I created the *deploy* directory.
 ```bash
-mkdir hmwkDeploy
+mkdir deploy
 ls -l
 ```
 ![](images/001_deployDirectoryCreated.png)
@@ -31,11 +31,14 @@ ls -l
 pip install virtualenv
 ```
 
-* Now, we enter our new directory, and execute the following commands:
+* Now, we enter our new directory, and execute the command *virtualenv*. When executing the command *virtualenv* we must pass as an argument the name of our virtual environment. For my case, I have chosen the name: *hmwkDeploy*, but we can choose the name we want.
 ```bash
-cd hmwkDeploy
-
+cd deploy
+virtualenv hmwkDeploy
 ```
+
+* Activate our new environment, from our *deploy* folder, with the following command:
+
 ## Final specifications.
 
 Whole folder is connected with my GitHub
