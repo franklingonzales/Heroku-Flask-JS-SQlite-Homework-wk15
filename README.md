@@ -10,12 +10,17 @@ Let us begin!
 We have the following 3 big steps:
 
 * Create a virtual environment.
-* Create the necessary files to perform the deploy.
+* Create the necessary files to perform deploy.
 * Perform the deploy in Heroku.
 
 ## Instructions - step by step
 
-
+#### 1. Create a virtual environment
+* We created a new directory. For my case, I created the hmwkDeploy directory.
+```bash
+mkdir hmwkDeploy
+ls -l
+```
 
 ## Final specifications.
 
