@@ -19,7 +19,7 @@ We have the following 3 big steps:
 ## Instructions - step by step
 
 #### 1. Create a virtual environment
-* We created a new directory. For my case, I created the *deploy* directory.
+* From a *terminal*, we created a new directory. For my case, I created the *deploy* directory.
 ```bash
 mkdir deploy
 ls -l
@@ -36,8 +36,9 @@ pip install virtualenv
 cd deploy
 virtualenv hmwkDeploy
 ```
+![](images/002_hmwkDeploy_Directory.png)
 
-* Activate our new environment, from our *deploy* folder, with the following command:
+* Basically, when creating our development environment, we created a folder with the same name, which has 3 folders with what is necessary to build a small world of isolated development, within our operating system. Activate our new environment, from our *deploy* folder, with the following command:
 
 ## Final specifications.
 
