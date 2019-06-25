@@ -21,7 +21,7 @@ We have the following 3 big steps:
 mkdir hmwkDeploy
 ls -l
 ```
-![](001_DirectoryCreated.png)
+![](images/001_DirectoryCreated.png)
 
 ## Final specifications.
 
