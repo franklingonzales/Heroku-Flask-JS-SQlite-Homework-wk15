@@ -83,9 +83,23 @@ pip install pandas
 
 * This is my GitHub repository for this project.
 
-![](images/004_hmwkPlotlyFolder.png)
+![](images/005_myFiles.png)
 
 * We copy the following project files, saved in this GitHub repository, to the *hmwkPlotly* folder:
+  * *db* folder
+  * *templates* folder
+  * *static* folder
+  * app.py
+  * Procfile. This file must retain its name (The first letter is capitalized, and must not have any extension of the type .txt or .sh, etc).
+
+* We execute the python command for the flask server saved in *app.py*
+
+![](images/006_python.png)
+
+* Now, we open any browser like safari, chrome, or microsoft edge, and we call the address: **localhost:5000**
+
+![](images/007_screenApp.png)
+
 
 * We create the *requirements.txt* file where we will deposit all the dependencies (libraries) installed in our environment, with their respective versions. For this, we use the command **pip freeze** as follows:
 
