@@ -113,6 +113,14 @@ pip freeze > requirements.txt
 
 <img src="images/010_Procfile.png">
 
+#### 3. Perform the deploy in Heroku.
+
+* First, you must have an account in Heroku. If you do not have it, it's time to create it by entering [I am new in Heroku](https://signup.heroku.com/).
+
+* So, now that you have created your account in Heroku, you need to download the client application, to execute the commands prior to deploy, from your terminal. Login to [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) to download Heroku cliente app.
+
+
+
 ## Final specifications.
 
 Whole folder is connected with my GitHub
