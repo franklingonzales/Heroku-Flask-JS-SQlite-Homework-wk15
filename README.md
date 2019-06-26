@@ -71,7 +71,7 @@ If we execute the command **ls -l**, the *hmwkDeploy* folder should look like th
 
 ![](images/004_hmwkPlotlyFolder.png)
 
-* For this project, we will need a series of python libraries: *sqlite*, *sqlalchemy*, *Flask-sqlalchemy*, *numpy*, *pandas*. For this, we will execute the following commands within our environment:
+* For this project, we will need a set of python libraries: *sqlite*, *sqlalchemy*, *Flask-sqlalchemy*, *numpy*, *pandas*. For this, we will execute the following commands within our environment:
 
 ```python
 pip install sqlite
@@ -81,14 +81,33 @@ pip install numpy
 pip install pandas
 ```
 
-* We copy the following project files, saved in this GitHub repository, to the *hmwkPlotly* folder:
+* This is my GitHub repository for this project.
 
-* We create the *requirements.txt* file where we will deposit all the dependencies (libraries) installed in our environment, with their respective versions. For this, we use the command **pip freeze** as follows:
+![](images/005_myFiles.png)
+
+* We copy the following project files, saved in this GitHub repository, to the *hmwkPlotly* folder:
+  * *db* folder
+  * *templates* folder
+  * *static* folder
+  * app.py
+  * Procfile. This file must retain its name (The first letter is capitalized, and must not have any extension of the type .txt or .sh, etc).
+
+* We execute the python command for the flask server saved in *app.py*
+
+![](images/007_python.png)
+
+* Now, we open any browser like safari, chrome, or microsoft edge, and we call the address: **localhost:5000**
+
+![](images/008_screenApp.png)
+
+* As we already know that the application works correctly in our environment, we can generate the requirements.txt file. First, we stop the Flask server with the command **Control + C**, and execute the following command:
 
 ```python
 pip freeze > requirements.txt
 ```
+* This is the content of the *requirements.txt* file, generated in my environment.
 
+![](images/009_requirements.png)
 
 ## Final specifications.
 
