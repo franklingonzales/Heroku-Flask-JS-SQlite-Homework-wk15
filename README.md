@@ -73,7 +73,7 @@ If we execute the command **ls -l**, the *hmwkDeploy* folder should look like th
 
 * For this project, we will need a set of python libraries: *sqlite*, *sqlalchemy*, *Flask-sqlalchemy*, *numpy*, *pandas*. For this, we will execute the following commands within our environment:
 
-```python
+```bash
 $ pip install sqlite
 $ pip install sqlalchemy
 $ pip install flask-sqlalchemy
@@ -102,7 +102,7 @@ $ pip install pandas
 
 * As we already know that the application works correctly in our environment, we can generate the requirements.txt file. First, we stop the Flask server with the command **Control + C**, and execute the following command:
 
-```python
+```bash
 $ pip freeze > requirements.txt
 ```
 * This is the content of the *requirements.txt* file, generated in my environment.
@@ -148,7 +148,13 @@ $ git commit -am "I am so excited!!!"
 $ git push heroku master
 ```
 
+* This is the screen on my desk in Heroku.
 
+<img src="images/012_MyHerokuDesktop.png">
+
+* In the settings section of your project, you can find the URL with which you can see your application from Heroku.
+
+<img src="images/013_My-app-URL.png">
 
 ## Final specifications.
 
