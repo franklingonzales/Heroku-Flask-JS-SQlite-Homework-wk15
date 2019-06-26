@@ -107,7 +107,8 @@ pip freeze > requirements.txt
 ```
 * This is the content of the *requirements.txt* file, generated in my environment.
 
-<img src="https://github.com/franklingonzales/Heroku-Flask-JS-SQlite-Homework-wk15/009_requirements.png" width=300 align=right>
+<img src="https://github.com/franklingonzales/Heroku-Flask-JS-SQlite-Homework-wk15/images/009_requirements.png" width=300 align=right>
+
 
 ## Final specifications.
 
