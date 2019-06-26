@@ -109,6 +109,10 @@ pip freeze > requirements.txt
 
 <img src="images/009_requirements.png" width=200>
 
+* All right; Now we need to check what is the content of our *Procfile* file. Basically, this file must contain the command that lets you know **Heroku**, which is the application that launches the server. For my case, it's the *app.py* file, but we'll only use the name of the file, without the *.py* extension:
+
+<img src="images/010_Procfile.png">
+
 ## Final specifications.
 
 Whole folder is connected with my GitHub
