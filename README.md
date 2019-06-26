@@ -105,7 +105,9 @@ pip install pandas
 ```python
 pip freeze > requirements.txt
 ```
-* 
+* This is the content of the *requirements.txt* file, generated in my environment.
+
+![](images/009_requirements.png)
 
 ## Final specifications.
 
