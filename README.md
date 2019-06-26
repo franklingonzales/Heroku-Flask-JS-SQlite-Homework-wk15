@@ -152,9 +152,18 @@ $ git push heroku master
 
 <img src="images/012_MyHerokuDesktop.png">
 
+
 * In the settings section of your project, you can find the URL with which you can see your application from Heroku.
 
 <img src="images/013_My-app-URL.png">
+
+
+* Finally, our application seen from its own URL:
+
+<img src="images/014_DeployedApp.png">
+
+
+
 
 ## Final specifications.
 
